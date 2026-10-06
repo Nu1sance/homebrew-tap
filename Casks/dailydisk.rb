@@ -9,6 +9,11 @@ cask "dailydisk" do
   desc "Disk-growth monitor with daily reports"
   homepage "https://github.com/Nu1sance/DailyDisk"
 
+  livecheck do
+    url "https://nu1sance.github.io/DailyDisk/appcast.xml"
+    strategy :sparkle
+  end
+
   # Receipt-based upgrades are intentional. The signed installer checks the
   # actual app build and preserves newer Sparkle installations without downgrade.
   depends_on arch: :arm64
