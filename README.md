@@ -33,4 +33,4 @@ brew uninstall --cask nu1sance/tap/dailydisk
 
 下载包来自 [DailyDisk GitHub Releases](https://github.com/Nu1sance/DailyDisk/releases)，经过 Developer ID 签名和 Apple 公证。此 Tap 不属于 Homebrew 官方 Cask 仓库。
 
-[源码与问题反馈](https://github.com/Nu1sance/DailyDisk) · [安装协调说明](https://github.com/Nu1sance/DailyDisk/blob/feat/homebrew-install-coordination/Docs/Homebrew.md)
+[源码与问题反馈](https://github.com/Nu1sance/DailyDisk) · [安装协调说明](https://github.com/Nu1sance/DailyDisk/blob/main/Docs/Homebrew.md)
