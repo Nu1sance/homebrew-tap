@@ -12,7 +12,7 @@ cask "dailydisk" do
   # Receipt-based upgrades are intentional. The signed installer checks the
   # actual app build and preserves newer Sparkle installations without downgrade.
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   # No app artifact: only the signed process may replace/remove the application,
   # while holding DailyDisk's installation and scan-admission leases.
