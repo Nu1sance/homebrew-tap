@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "dailydisk" do
-  version "0.2.7,22"
-  sha256 "07cd5e35a5cad35299ef0e49263fe29c697ff1f77ec1b5c98ebc6597395131fd"
+  version "0.2.8,23"
+  sha256 "4fbcc33e9a74f25b45e8d25c217cddb96b11fbc51940f0bb1b8d1d64b537358f"
 
   url "https://github.com/Nu1sance/DailyDisk/releases/download/v#{version.csv.first}/DailyDisk-#{version.csv.first}-#{version.csv.second}-arm64.zip"
   name "DailyDisk"
